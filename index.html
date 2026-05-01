@@ -3,171 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simulador de Economía - Examen</title>
+    <title>Examen Economía</title>
     <style>
         :root {
             --primary: #2563eb;
-            --secondary: #64748b;
             --bg: #f8fafc;
             --card: #ffffff;
             --text: #1e293b;
             --correct: #dcfce7;
-            --correct-border: #22c55e;
             --incorrect: #fee2e2;
-            --incorrect-border: #ef4444;
         }
 
         body { 
             font-family: 'Segoe UI', system-ui, sans-serif; 
-            background-color: var(--bg); 
-            color: var(--text);
-            margin: 0;
-            display: flex;
-            justify-content: center;
-            min-height: 100vh;
-            padding: 20px;
+            background: var(--bg); color: var(--text); 
+            display: flex; justify-content: center; padding: 20px; margin: 0;
         }
 
         .container { 
-            background: var(--card); 
-            padding: 40px; 
-            border-radius: 20px; 
-            box-shadow: 0 10px 30px rgba(0,0,0,0.08); 
-            width: 100%; 
-            max-width: 700px; 
-            align-self: flex-start;
+            background: var(--card); padding: 30px; border-radius: 16px; 
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08); width: 100%; max-width: 650px; 
         }
 
-        .header-info {
-            text-align: center;
-            margin-bottom: 30px;
-            border-bottom: 1px solid #e2e8f0;
-            padding-bottom: 20px;
+        .header { text-align: center; margin-bottom: 25px; border-bottom: 2px solid #f1f5f9; padding-bottom: 15px; }
+        
+        #topic-title { 
+            display: block; font-weight: 800; color: var(--primary); 
+            text-transform: uppercase; font-size: 0.9rem; letter-spacing: 1px;
         }
 
-        #topic-display {
-            display: block;
-            font-weight: 800;
-            color: var(--primary);
-            font-size: 0.9rem;
-            text-transform: uppercase;
-            letter-spacing: 1.5px;
-            margin-bottom: 8px;
+        .meta { color: #64748b; font-size: 0.85rem; margin-top: 5px; }
+
+        h2 { font-size: 1.25rem; line-height: 1.4; margin: 20px 0; }
+
+        .option { 
+            display: block; width: 100%; padding: 15px; margin: 10px 0; 
+            border: 2px solid #e2e8f0; border-radius: 10px; cursor: pointer; 
+            text-align: left; font-size: 1rem; background: white; transition: 0.2s;
         }
 
-        .question-meta {
-            color: var(--secondary);
-            font-size: 0.85rem;
-            font-weight: 500;
+        .option:hover:not(:disabled) { border-color: var(--primary); background: #f0f7ff; }
+        
+        .correct { background: var(--correct) !important; border-color: #22c55e !important; color: #14532d; }
+        .incorrect { background: var(--incorrect) !important; border-color: #ef4444 !important; color: #7f1d1d; }
+
+        .explanation { 
+            margin-top: 20px; padding: 15px; background: #f1f5f9; 
+            border-left: 4px solid var(--primary); border-radius: 4px;
         }
 
-        h2 { 
-            font-size: 1.4rem; 
-            line-height: 1.5;
-            margin-bottom: 25px;
-            color: #0f172a;
-        }
-
-        .option-button { 
-            display: block; 
-            width: 100%; 
-            padding: 18px 24px; 
-            margin: 14px 0; 
-            border: 2px solid #f1f5f9; 
-            border-radius: 14px; 
-            cursor: pointer; 
-            text-align: left; 
-            font-size: 1.05rem;
-            transition: all 0.25s ease;
-            background: #fff;
-            color: #334155;
-        }
-
-        .option-button:hover:not(:disabled) { 
-            border-color: var(--primary);
-            background-color: #f0f7ff;
-            transform: translateX(5px);
-        }
-
-        .correct { 
-            background-color: var(--correct) !important; 
-            border-color: var(--correct-border) !important; 
-            color: #14532d !important;
-            font-weight: 600;
-        }
-
-        .incorrect { 
-            background-color: var(--incorrect) !important; 
-            border-color: var(--incorrect-border) !important; 
-            color: #7f1d1d !important;
-        }
-
-        .explanation-box { 
-            margin-top: 30px; 
-            padding: 24px; 
-            background-color: #f8fafc; 
-            border-radius: 14px;
-            border-left: 6px solid var(--primary);
-            animation: fadeIn 0.4s ease;
-        }
-
-        .explanation-box strong {
-            display: block;
-            color: var(--primary);
-            margin-bottom: 8px;
-            font-size: 0.9rem;
-            text-transform: uppercase;
+        .btn { 
+            background: var(--primary); color: white; border: none; padding: 15px; 
+            border-radius: 8px; width: 100%; font-weight: bold; cursor: pointer; margin-top: 20px;
         }
 
         .hidden { display: none; }
-
-        .btn-action { 
-            background-color: var(--primary); 
-            color: white; 
-            border: none; 
-            padding: 18px; 
-            border-radius: 12px; 
-            cursor: pointer; 
-            margin-top: 25px; 
-            font-weight: 700;
-            font-size: 1.1rem;
-            width: 100%;
-            transition: transform 0.2s;
-        }
-
-        .btn-action:active { transform: scale(0.98); }
-
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(10px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
     </style>
 </head>
 <body>
 
 <div class="container">
-    <div id="quiz-area">
-        <div class="header-info">
-            <span id="topic-display">MÓDULO | TEMA</span>
-            <span id="progress-display" class="question-meta">Pregunta 0 de 0</span>
+    <div id="quiz">
+        <div class="header">
+            <span id="topic-title">MODULO | TEMA</span>
+            <div id="progress" class="meta">Pregunta 1 de 40</div>
         </div>
-        
-        <h2 id="question-text">Cargando pregunta...</h2>
-        
-        <div id="options-grid"></div>
-        
-        <div id="feedback-area" class="explanation-box hidden">
-            <strong>Idea Clave</strong>
-            <p id="explanation-content" style="margin: 0; line-height: 1.6;"></p>
+
+        <h2 id="question">Cargando...</h2>
+        <div id="options"></div>
+
+        <div id="feedback" class="explanation hidden">
+            <b style="color:var(--primary)">IDEA CLAVE:</b>
+            <p id="desc" style="margin: 5px 0 0 0"></p>
         </div>
-        
-        <button id="btn-next" class="btn-action hidden">Siguiente Pregunta</button>
+
+        <button id="next" class="btn hidden">Siguiente Pregunta</button>
     </div>
 
-    <div id="results-area" class="hidden" style="text-align: center;">
-        <h2 style="font-size: 2rem; margin-bottom: 10px;">¡Examen Completado!</h2>
-        <div id="final-score" style="margin: 30px 0;"></div>
-        <button onclick="location.reload()" class="btn-action">Reiniciar Simulador</button>
+    <div id="result" class="hidden" style="text-align:center">
+        <h2>Examen Finalizado</h2>
+        <div id="score" style="font-size: 2rem; font-weight: bold; margin: 20px 0; color: var(--primary)"></div>
+        <button onclick="location.reload()" class="btn">Repetir Examen</button>
     </div>
 </div>
 
