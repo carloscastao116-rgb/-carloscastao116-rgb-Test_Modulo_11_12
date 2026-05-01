@@ -1,144 +1,70 @@
-let currentQuestionIndex = 0;
-let correctCount = 0;
-let incorrectCount = 0;
+let currentIdx = 0;
+let score = 0;
 let answered = false;
 
-const questionContainer = document.getElementById('question-container');
-const resultsContainer = document.getElementById('results-container');
-const scoreText = document.getElementById('score-text');
-const restartButton = document.getElementById('restart-button');
-const questionEl = document.getElementById('question');
-const optionsEl = document.getElementById('options-container');
-const explanationText = document.getElementById('explanation-text');
-const explanationContainer = document.getElementById('explanation-container');
-const nextButton = document.getElementById('next-button');
-const moduleTag = document.getElementById('module-tag');
-const progressText = document.getElementById('progress-text');
+const qText = document.getElementById('question');
+const optBox = document.getElementById('options');
+const topicLabel = document.getElementById('topic-title');
+const progressLabel = document.getElementById('progress');
+const feedback = document.getElementById('feedback');
+const descText = document.getElementById('desc');
+const nextBtn = document.getElementById('next');
+const quizBox = document.getElementById('quiz');
+const resultBox = document.getElementById('result');
 
-function loadQuestion() {
-    if (currentQuestionIndex >= questionsData.length) {
-        showResults();
-        return; 
+function load() {
+    if (currentIdx >= questionsData.length) {
+        quizBox.classList.add('hidden');
+        resultBox.classList.remove('hidden');
+        document.getElementById('score').textContent = `${((score/questionsData.length)*100).toFixed(0)}%`;
+        return;
     }
+
+    const q = questionsData[currentIdx];
+    answered = false;
     
-    const currentQuestion = questionsData[currentQuestionIndex];
-    const totalQuestions = questionsData.length;
-    answered = false; 
-
-    questionContainer.classList.remove('hidden');
-    resultsContainer.classList.add('hidden');
-
-    // Actualizar textos de cabecera
-    moduleTag.textContent = currentQuestion.module;
-    progressText.textContent = `Pregunta ${currentQuestionIndex + 1} de ${totalQuestions}`;
-    questionEl.textContent = currentQuestion.question; 
+    topicLabel.textContent = `${q.module} | ${q.topic}`;
+    progressLabel.textContent = `Pregunta ${currentIdx + 1} de ${questionsData.length}`;
+    qText.textContent = q.question;
     
-    optionsEl.innerHTML = ''; 
-    explanationContainer.classList.add('hidden');
-    nextButton.classList.add('hidden');
+    optBox.innerHTML = '';
+    feedback.classList.add('hidden');
+    nextBtn.classList.add('hidden');
 
-    for (const [key, value] of Object.entries(currentQuestion.options)) {
-        const button = document.createElement('button');
-        button.textContent = `${key}. ${value}`;
-        button.classList.add('option-button');
-        button.addEventListener('click', () => {
-            selectAnswer(key, currentQuestion.answer, currentQuestion.explanation);
-        });
-        optionsEl.appendChild(button);
-    }
-}
-
-function selectAnswer(selectedKey, correctAnswer, explanation) {
-    if (answered) return; 
-    answered = true;
-
-    const optionButtons = document.querySelectorAll('.option-button');
-    let isCorrect = (selectedKey === correctAnswer);
-
-    if (isCorrect) {
-        correctCount++;
-    } else {
-        incorrectCount++;
-    }
-    
-    optionButtons.forEach(button => {
-        button.disabled = true;
-        const optionKey = button.textContent.charAt(0);
-        
-        if (optionKey === correctAnswer) {
-            button.classList.add('correct');
-        } else if (optionKey === selectedKey) {
-            button.classList.add('incorrect');
-        }
+    Object.entries(q.options).forEach(([key, val]) => {
+        const b = document.createElement('button');
+        b.className = 'option';
+        b.textContent = `${key}. ${val}`;
+        b.onclick = () => check(key, b);
+        optBox.appendChild(b);
     });
-
-    explanationText.textContent = explanation;
-    explanationContainer.classList.remove('hidden');
-    nextButton.classList.remove('hidden');
 }
 
-function showResults() {
-    questionContainer.classList.add('hidden');
-    resultsContainer.classList.remove('hidden');
-
-    const totalQuestions = questionsData.length;
-    const percentage = ((correctCount / totalQuestions) * 100).toFixed(1);
-
-    scoreText.innerHTML = `
-        <div style="background: #f8fafc; padding: 20px; border-radius: 12px; margin-bottom: 20px;">
-            <p>Aciertos: <strong style="color: #16a34a;">${correctCount}</strong></p>
-            <p>Fallos: <strong style="color: #dc2626;">${incorrectCount}</strong></p>
-            <hr style="border: 0; border-top: 1px solid #e2e8f0; margin: 15px 0;">
-            <p style="font-size: 1.5rem;">Puntuación: <strong>${percentage}%</strong></p>
-        </div>
-    `;
-}
-
-function restartTest() {
-    currentQuestionIndex = 0;
-    correctCount = 0;
-    incorrectCount = 0;
-    loadQuestion();
-}
-
-nextButton.addEventListener('click', () => {
-    currentQuestionIndex++;
-    loadQuestion();
-});
-
-restartButton.addEventListener('click', restartTest);
-
-loadQuestion();function loadQuestion() {
-    if (currentQuestionIndex >= questionsData.length) {
-        showResults();
-        return; 
-    }
+function check(choice, btn) {
+    if (answered) return;
+    answered = true;
     
-    const currentQuestion = questionsData[currentQuestionIndex];
-    const totalQuestions = questionsData.length;
-    answered = false; 
+    const correct = questionsData[currentIdx].answer;
+    const btns = optBox.querySelectorAll('.option');
 
-    // Referencias a los nuevos elementos estéticos
-    const moduleTag = document.getElementById('module-tag');
-    
-    questionContainer.classList.remove('hidden');
-    resultsContainer.classList.add('hidden');
-
-    // Separamos el módulo del texto de la pregunta
-    moduleTag.textContent = currentQuestion.module;
-    questionEl.textContent = `Pregunta ${currentQuestionIndex + 1} de ${totalQuestions}: ${currentQuestion.question}`; 
-    
-    optionsEl.innerHTML = ''; 
-    explanationContainer.classList.add('hidden');
-    nextButton.classList.add('hidden');
-
-    for (const [key, value] of Object.entries(currentQuestion.options)) {
-        const button = document.createElement('button');
-        button.textContent = `${key}. ${value}`;
-        button.classList.add('option-button');
-        button.addEventListener('click', () => {
-            selectAnswer(key, currentQuestion.answer, currentQuestion.explanation);
+    if (choice === correct) {
+        score++;
+        btn.classList.add('correct');
+    } else {
+        btn.classList.add('incorrect');
+        btns.forEach(b => {
+            if (b.textContent.startsWith(correct)) b.classList.add('correct');
         });
-        optionsEl.appendChild(button);
     }
+
+    descText.textContent = questionsData[currentIdx].explanation;
+    feedback.classList.remove('hidden');
+    nextBtn.classList.remove('hidden');
 }
+
+nextBtn.onclick = () => {
+    currentIdx++;
+    load();
+};
+
+window.onload = load;
