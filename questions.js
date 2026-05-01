@@ -1,5 +1,5 @@
 const questionsData = [
-    // --- MÓDULO 11: MICROECONOMÍA (Preguntas 1-20) ---
+    // --- MÓDULO 11: MICROECONOMÍA ---
     {
         module: "Módulo 11 - Microeconomía",
         question: "¿Qué describe correctamente la demanda de un bien?",
@@ -10,7 +10,7 @@ const questionsData = [
             D: "La suma total de bienes producidos en un país durante un año."
         },
         answer: "B",
-        explanation: "La demanda es la relación completa entre precio y cantidad deseada[cite: 3]."
+        explanation: "En tus apuntes se distingue entre demanda y cantidad demandada: la demanda es la relación completa entre precio y cantidad deseada[cite: 3]."
     },
     {
         module: "Módulo 11 - Microeconomía",
@@ -22,7 +22,7 @@ const questionsData = [
             D: "No hay cambios porque son mercados independientes."
         },
         answer: "B",
-        explanation: "El cambio en el precio de un bien sustitutivo desplaza la curva de demanda del otro bien[cite: 3]."
+        explanation: "Tus resúmenes remarcan que el cambio en el precio de un bien sustitutivo desplaza la curva de demanda del otro bien[cite: 3]."
     },
     {
         module: "Módulo 11 - Microeconomía",
@@ -46,11 +46,11 @@ const questionsData = [
             D: "Que la demanda desaparezca."
         },
         answer: "B",
-        explanation: "Un precio por debajo del equilibrio genera escasez porque la cantidad demandada supera a la ofrecida[cite: 3]."
+        explanation: "Los apuntes insisten en que un precio por debajo del equilibrio genera escasez porque la cantidad demandada supera a la ofrecida[cite: 3]."
     },
     {
         module: "Módulo 11 - Microeconomía",
-        question: "Según el bloque sobre precios, ¿cuál es una función central del precio de mercado?",
+        question: "¿Cuál es una función central del precio de mercado según el bloque sobre precios?",
         options: {
             A: "Garantizar igualdad de renta entre compradores y vendedores.",
             B: "Seleccionar a quienes más valoran el bien y a quienes lo producen con menor coste de oportunidad.",
@@ -58,7 +58,7 @@ const questionsData = [
             D: "Eliminar la competencia entre empresas."
         },
         answer: "B",
-        explanation: "El precio coordina planes y asigna el bien a quienes más lo valoran y a oferentes con menores costes relativos[cite: 3]."
+        explanation: "En el resumen de micro se explica que el precio coordina planes y asigna el bien a quienes lo valoran más, mientras atrae a oferentes con menores costes relativos[cite: 3]."
     },
     {
         module: "Módulo 11 - Microeconomía",
@@ -70,7 +70,7 @@ const questionsData = [
             D: "El ahorro mensual del consumidor."
         },
         answer: "C",
-        explanation: "La condición de óptimo es la igualdad entre la relación marginal de sustitución y la relación de precios[cite: 3]."
+        explanation: "Tus apuntes de micro resumen la condición de óptimo como igualdad entre la relación marginal de sustitución y la relación de precios[cite: 3]."
     },
     {
         module: "Módulo 11 - Microeconomía",
@@ -82,11 +82,11 @@ const questionsData = [
             D: "La voluntad de los sindicatos."
         },
         answer: "B",
-        explanation: "Los precios de los factores se presentan como derivados de su productividad marginal esperada[cite: 3]."
+        explanation: "El bloque de salarios y tipos de interés presenta los precios de los factores como derivados de su productividad marginal esperada[cite: 3]."
     },
     {
         module: "Módulo 11 - Microeconomía",
-        question: "¿Cuál de estas afirmaciones encaja mejor con el bloque de salarios?",
+        question: "¿Cuál de estas afirmaciones encaja mejor con el bloque de salarios de tus apuntes?",
         options: {
             A: "Los salarios están fijos por el nivel de subsistencia.",
             B: "El capital no influye en la remuneración del trabajo.",
@@ -94,7 +94,7 @@ const questionsData = [
             D: "Los salarios solo suben si bajan los precios."
         },
         answer: "C",
-        explanation: "Las mejoras salariales sostenibles requieren una productividad más alta[cite: 3]."
+        explanation: "El resumen rechaza la ley de hierro de los salarios y repite que las mejoras salariales sostenibles requieren productividad más alta[cite: 3]."
     },
     {
         module: "Módulo 11 - Microeconomía",
@@ -106,19 +106,19 @@ const questionsData = [
             D: "Aumentar la cantidad demandada."
         },
         answer: "C",
-        explanation: "Con demanda elástica, subir el precio reduce lo bastante la cantidad como para bajar los ingresos[cite: 3]."
+        explanation: "Tus apuntes de elasticidad indican que con demanda elástica, subir el precio reduce lo bastante la cantidad como para bajar los ingresos[cite: 3]."
     },
     {
         module: "Módulo 11 - Microeconomía",
         question: "Si la elasticidad cruzada entre dos bienes es positiva, lo más probable es que sean:",
         options: {
             A: "Bienes complementarios.",
-            B: "Bienes de lujo.",
-            C: "Bienes sustitutivos.",
+            B: "Bienes sustitutivos.",
+            C: "Bienes de lujo.",
             D: "Bienes independientes."
         },
-        answer: "C",
-        explanation: "La elasticidad cruzada positiva indica que los bienes son sustitutivos[cite: 3]."
+        answer: "B",
+        explanation: "En el resumen de micro, la elasticidad cruzada sirve precisamente para distinguir sustitutivos de complementarios[cite: 3]."
     },
     {
         module: "Módulo 11 - Microeconomía",
@@ -130,19 +130,19 @@ const questionsData = [
             D: "Una mayor inversión en el sector."
         },
         answer: "A",
-        explanation: "El precio techo por debajo del mercado se asocia con desabastecimiento y mercado negro[cite: 3]."
+        explanation: "Los apuntes y el PDF sobre controles de precios asocian el precio techo por debajo del mercado con desabastecimiento, racionamiento y mercado negro[cite: 3]."
     },
     {
         module: "Módulo 11 - Microeconomía",
         question: "Un precio mínimo fijado por encima del precio de mercado suele provocar:",
         options: {
             A: "Escasez para los consumidores.",
-            B: "Excedentes no vendidos y, en algunos casos, desempleo.",
+            B: "Excedentes no vendidos y, en algunos casos, desempleo o capacidad ociosa.",
             C: "Un equilibrio perfecto en el mercado de trabajo.",
             D: "Que la demanda aumente repentinamente."
         },
         answer: "B",
-        explanation: "El precio suelo por encima del equilibrio genera excedentes o capacidad ociosa[cite: 3]."
+        explanation: "Tus apuntes destacan que el precio suelo por encima del equilibrio genera excedentes, desempleo o capacidad ociosa y peor asignación[cite: 3]."
     },
     {
         module: "Módulo 11 - Microeconomía",
@@ -154,7 +154,7 @@ const questionsData = [
             D: "Mantener la producción en el óptimo social."
         },
         answer: "B",
-        explanation: "Las externalidades negativas empujan a la sobreproducción respecto al óptimo social[cite: 3]."
+        explanation: "En el bloque de externalidades se explica que las negativas empujan a sobreproducción o sobreconsumo respecto al óptimo social[cite: 3]."
     },
     {
         module: "Módulo 11 - Microeconomía",
@@ -166,7 +166,7 @@ const questionsData = [
             D: "Nadie tiene derechos de propiedad definidos."
         },
         answer: "A",
-        explanation: "Coase requiere derechos definidos y costes de transacción bajos para acuerdos privados[cite: 3]."
+        explanation: "Tus resúmenes de micro recogen exactamente esas dos condiciones: derechos definidos y costes de transacción bajos[cite: 3]."
     },
     {
         module: "Módulo 11 - Microeconomía",
@@ -178,43 +178,43 @@ const questionsData = [
             D: "El coste marginal sea cero."
         },
         answer: "B",
-        explanation: "La regla de maximización es producir hasta que el precio iguale al coste marginal[cite: 3]."
+        explanation: "El bloque de empresa y beneficios resume la regla de maximización de forma clara: producir hasta que precio iguale al coste marginal[cite: 3]."
     },
     {
         module: "Módulo 11 - Microeconomía",
         question: "En equilibrio competitivo de largo plazo, la entrada y salida de empresas tiende a llevar el mercado hacia:",
         options: {
             A: "Precio igual a coste medio mínimo.",
-            B: "Precio igual a ingreso marginal máximo.",
+            B: "Ingreso marginal igual a coste fijo.",
             C: "Beneficios extraordinarios perpetuos.",
             D: "La quiebra de todas las empresas."
         },
         answer: "A",
-        explanation: "La entrada y salida de empresas empujan el largo plazo hacia el coste medio mínimo[cite: 3]."
+        explanation: "Tus apuntes indican que la entrada y salida empujan al largo plazo hacia una situación de precio igual al coste medio mínimo[cite: 3]."
     },
     {
         module: "Módulo 11 - Microeconomía",
         question: "¿Qué entiende el curso por competencia dinámica?",
         options: {
-            A: "Un mercado con precios fijados por el gobierno.",
+            A: "Un mercado con precios administrados por el Estado.",
             B: "Un sistema de libre entrada y salida, rivalidad y descubrimiento empresarial.",
             C: "La ausencia total de competidores en un mercado.",
             D: "Un modelo donde las empresas nunca cambian su producto."
         },
         answer: "B",
-        explanation: "La visión dinámica se basa en la rivalidad y la libre entrada[cite: 3]."
+        explanation: "En la parte de competencia se diferencia entre la foto estática de muchas empresas y la visión dinámica basada en rivalidad y libre entrada[cite: 3]."
     },
     {
         module: "Módulo 11 - Microeconomía",
-        question: "¿Por qué los carteles tienden a ser inestables?",
+        question: "¿Por qué los carteles tienden a ser inestables según tus apuntes?",
         options: {
             A: "Porque los consumidores siempre prefieren los monopolios.",
-            B: "Porque el Estado les garantiza beneficios sin competir.",
+            B: "Porque todos sus miembros tienen idénticos costes.",
             C: "Porque pueden entrar nuevos competidores y cada miembro tiene incentivos a hacer trampa.",
             D: "Porque sus costes son siempre decrecientes."
         },
         answer: "C",
-        explanation: "La inestabilidad proviene de la entrada externa y el incentivo al engaño interno[cite: 3]."
+        explanation: "Tanto el resumen como el PDF sobre oligopolios y carteles recalcan las dos fuentes de inestabilidad: entrada externa y engaño interno[cite: 3]."
     },
     {
         module: "Módulo 11 - Microeconomía",
@@ -226,7 +226,7 @@ const questionsData = [
             D: "Recurso común."
         },
         answer: "D",
-        explanation: "Los recursos comunes son rivales en consumo y no excluibles, como una pesquería abierta[cite: 3]."
+        explanation: "En tu esquema de bienes, los recursos comunes son rivales en consumo y no excluibles, justo la lógica de una pesquería abierta[cite: 3]."
     },
     {
         module: "Módulo 11 - Microeconomía",
@@ -238,10 +238,10 @@ const questionsData = [
             D: "Eliminar la producción nacional del bien."
         },
         answer: "B",
-        explanation: "El arancel causa precios internos más altos, menor consumo y pérdida irrecuperable[cite: 3]."
+        explanation: "Tus apuntes de libre comercio resumen el efecto del arancel como precio interno más alto, menor consumo, menos importaciones y pérdida irrecuperable[cite: 3]."
     },
 
-    // --- MÓDULO 12: MACROECONOMÍA (Preguntas 21-40) ---
+    // --- MÓDULO 12: MACROECONOMÍA ---
     {
         module: "Módulo 12 - Macroeconomía",
         question: "Según el enfoque del gasto, el PIB se calcula como:",
@@ -252,7 +252,7 @@ const questionsData = [
             D: "Exportaciones - Importaciones únicamente."
         },
         answer: "C",
-        explanation: "El PIB por gasto incluye consumo, inversión, gasto público y exportaciones netas[cite: 3]."
+        explanation: "El resumen de macro recoge la identidad básica del PIB por gasto: consumo, inversión, gasto público y exportaciones netas[cite: 3]."
     },
     {
         module: "Módulo 12 - Macroeconomía",
@@ -264,19 +264,19 @@ const questionsData = [
             D: "Para aumentar artificialmente el valor del PIB."
         },
         answer: "A",
-        explanation: "Las importaciones se restan porque no corresponden a producción interna[cite: 3]."
+        explanation: "Tus apuntes recalcan que las importaciones se restan porque ese gasto no corresponde a producción interna[cite: 3]."
     },
     {
         module: "Módulo 12 - Macroeconomía",
         question: "¿Qué problema busca evitar el enfoque del valor agregado por etapas?",
         options: {
-            A: "La inflación galopante.",
+            A: "La estacionalidad del PIB trimestral.",
             B: "La doble contabilización de bienes intermedios.",
             C: "La caída de la inversión extranjera.",
             D: "El aumento del déficit público."
         },
         answer: "B",
-        explanation: "El valor agregado evita contar varias veces la misma producción a través de sus etapas[cite: 3]."
+        explanation: "Tanto el resumen como el PDF de PIB explican el valor agregado como herramienta para evitar contar varias veces la misma producción[cite: 3]."
     },
     {
         module: "Módulo 12 - Macroeconomía",
@@ -288,7 +288,7 @@ const questionsData = [
             D: "El valor de la producción a precios corrientes."
         },
         answer: "B",
-        explanation: "El PIB real intenta quedarse exclusivamente con la variación de cantidades producidas[cite: 3]."
+        explanation: "Tus apuntes subrayan que el PIB nominal mezcla precio y cantidad, mientras el real intenta quedarse con la variación de cantidades[cite: 3]."
     },
     {
         module: "Módulo 12 - Macroeconomía",
@@ -297,10 +297,10 @@ const questionsData = [
             A: "La producción física del país está cayendo.",
             B: "Los precios medios de la producción interna están aumentando.",
             C: "El desempleo está bajando automáticamente.",
-            D: "Las importaciones son más baratas que antes."
+            D: "Las exportaciones superan automáticamente a las importaciones."
         },
         answer: "B",
-        explanation: "El deflactor es una medida amplia de precios de la producción nacional[cite: 3]."
+        explanation: "El resumen de macro presenta el deflactor como una medida amplia de precios de la producción interna[cite: 3]."
     },
     {
         module: "Módulo 12 - Macroeconomía",
@@ -312,7 +312,7 @@ const questionsData = [
             D: "El IPC mide producción y el deflactor mide consumo."
         },
         answer: "C",
-        explanation: "El IPC mide el coste de vida de hogares y el deflactor los precios de lo producido internamente[cite: 3]."
+        explanation: "En tus apuntes se repite que el IPC sirve mejor para coste de vida y el deflactor para precios de lo producido dentro del país[cite: 3]."
     },
     {
         module: "Módulo 12 - Macroeconomía",
@@ -324,7 +324,7 @@ const questionsData = [
             D: "Riqueza acumulada."
         },
         answer: "B",
-        explanation: "El PIB se define como una variable flujo que mide producción en un tiempo dado[cite: 3]."
+        explanation: "El PDF sobre definición de PIB lo trata expresamente como variable flujo, no como stock[cite: 3]."
     },
     {
         module: "Módulo 12 - Macroeconomía",
@@ -336,19 +336,19 @@ const questionsData = [
             D: "La tecnología mejora automáticamente."
         },
         answer: "B",
-        explanation: "Este principio explica que añadir un factor sobre otro fijo tiene rendimientos decrecientes[cite: 3]."
+        explanation: "El bloque de función de producción usa este principio para explicar por qué la acumulación de un solo factor tiene límites[cite: 3]."
     },
     {
         module: "Módulo 12 - Macroeconomía",
         question: "Según tus apuntes, el tipo de interés puede descomponerse en:",
         options: {
-            A: "Inflación, salarios y beneficios.",
+            A: "Productividad, inflación y salario real.",
             B: "Prima temporal, prima de riesgo y prima de liquidez.",
             C: "Consumo, ahorro e inversión.",
             D: "Exportaciones e importaciones."
         },
         answer: "B",
-        explanation: "El interés se descompone en tiempo, riesgo y liquidez[cite: 3]."
+        explanation: "El resumen de macro descompone el interés en tiempo, riesgo y liquidez, que es una de las ideas centrales del tema[cite: 3]."
     },
     {
         module: "Módulo 12 - Macroeconomía",
@@ -360,7 +360,7 @@ const questionsData = [
             D: "Cambiar su estructura de costes primero."
         },
         answer: "B",
-        explanation: "Si el VPN es positivo y la TIR supera el coste de oportunidad, el proyecto crea valor[cite: 3]."
+        explanation: "Tus apuntes son directos: si el VPN es positivo y la TIR supera el coste de oportunidad, el proyecto crea valor[cite: 3]."
     },
     {
         module: "Módulo 12 - Macroeconomía",
@@ -368,11 +368,11 @@ const questionsData = [
         options: {
             A: "Ser un bien de consumo directo.",
             B: "Servir como medio de intercambio y unidad de cuenta.",
-            C: "Garantizar el pleno empleo por sí mismo.",
+            C: "Garantizar que toda economía crezca permanentemente.",
             D: "Sustituir a la producción física."
         },
         answer: "B",
-        explanation: "Las funciones clásicas son medio de intercambio, unidad de cuenta y depósito de valor[cite: 3]."
+        explanation: "En el bloque sobre dinero, los apuntes explican funciones clásicas como medio de intercambio, unidad de cuenta y depósito de valor[cite: 3]."
     },
     {
         module: "Módulo 12 - Macroeconomía",
@@ -384,7 +384,7 @@ const questionsData = [
             D: "Que los precios nunca deberían subir."
         },
         answer: "B",
-        explanation: "La visión cualitativista enfatiza la importancia de la demanda de dinero y la confianza[cite: 3]."
+        explanation: "El resumen de macro insiste en que no basta mirar la oferta monetaria: también importa la demanda de dinero y su calidad[cite: 3]."
     },
     {
         module: "Módulo 12 - Macroeconomía",
@@ -396,7 +396,7 @@ const questionsData = [
             D: "Prohíbe a los bancos comerciales prestar dinero."
         },
         answer: "B",
-        explanation: "La compra de activos inyecta reservas y reduce los rendimientos de los activos[cite: 3]."
+        explanation: "Tus apuntes explican que la compra de activos inyecta reservas, sube el precio del activo y reduce su rendimiento[cite: 3]."
     },
     {
         module: "Módulo 12 - Macroeconomía",
@@ -408,7 +408,7 @@ const questionsData = [
             D: "Solo el límite de impresión de billetes físicos."
         },
         answer: "B",
-        explanation: "Los límites incluyen liquidez, solvencia y la demanda de crédito solvente[cite: 3]."
+        explanation: "El bloque de dinero bancario insiste en esos límites: liquidez, solvencia, crédito solvente y conversión final en dinero del banco central[cite: 3]."
     },
     {
         module: "Módulo 12 - Macroeconomía",
@@ -420,7 +420,7 @@ const questionsData = [
             D: "Eliminar el seguro de desempleo."
         },
         answer: "C",
-        explanation: "Menos impuestos o más gasto definen una política fiscal expansiva[cite: 3]."
+        explanation: "Tus apuntes de política fiscal resumen el enfoque convencional así: menos impuestos o más gasto equivalen a un sesgo expansivo[cite: 3]."
     },
     {
         module: "Módulo 12 - Macroeconomía",
@@ -432,7 +432,7 @@ const questionsData = [
             D: "La privatización de una empresa pública."
         },
         answer: "B",
-        explanation: "El seguro de desempleo y la recaudación variable actúan como estabilizadores automáticos[cite: 3]."
+        explanation: "El resumen de macro cita de forma expresa el seguro de desempleo y la caída automática de recaudación en recesión[cite: 3]."
     },
     {
         module: "Módulo 12 - Macroeconomía",
@@ -444,7 +444,7 @@ const questionsData = [
             D: "Que no afecta al déficit público."
         },
         answer: "B",
-        explanation: "Una crítica central es el efecto desplazamiento o crowding out del crédito privado[cite: 3]."
+        explanation: "Tus apuntes recogen varias críticas, y una de las más claras es el crowding out: deuda pública que desplaza crédito privado[cite: 3]."
     },
     {
         module: "Módulo 12 - Macroeconomía",
@@ -456,19 +456,19 @@ const questionsData = [
             D: "La tecnología retrocede."
         },
         answer: "B",
-        explanation: "Si la inversión supera la depreciación y dilución, el capital por trabajador crece[cite: 3]."
+        explanation: "El resumen de Solow distingue entre ampliación y profundización del capital: si la inversión supera depreciación y dilución, k por trabajador aumenta[cite: 3]."
     },
     {
         module: "Módulo 12 - Macroeconomía",
         question: "La regla de oro de Solow busca el nivel de capital por trabajador que:",
         options: {
-            A: "Elimina toda depreciación.",
-            B: "Maximiza el consumo sostenible de largo plazo.",
+            A: "Maximiza el consumo sostenible de largo plazo.",
+            B: "Elimina toda depreciación.",
             C: "Maximiza únicamente la inversión bruta.",
             D: "Reduce el ahorro a cero."
         },
-        answer: "A", // Nota: Corrigiendo según la idea clave del source.
-        explanation: "La regla de oro busca el capital que maximiza el consumo sostenible, no la acumulación infinita[cite: 3]."
+        answer: "A",
+        explanation: "Tus apuntes aclaran que la regla de oro no busca acumular sin límite, sino el capital que maximiza el consumo sostenible[cite: 3]."
     },
     {
         module: "Módulo 12 - Macroeconomía",
@@ -480,6 +480,6 @@ const questionsData = [
             D: "La productividad subirá automáticamente por decreto."
         },
         answer: "B",
-        explanation: "Si el salario exigido supera la productividad, la demanda de trabajo de esas personas cae[cite: 3]."
+        explanation: "El resumen de macro relaciona salario máximo sostenible y productividad económica; si el salario exigido supera esa productividad, cae la demanda de trabajo[cite: 3]."
     }
 ];
