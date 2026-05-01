@@ -10,7 +10,7 @@ const questionsData = [
             D: "La suma total de bienes producidos en un país durante un año."
         },
         answer: "B",
-        explanation: "En tus apuntes se distingue entre demanda y cantidad demandada: la demanda es la relación completa entre precio y cantidad deseada[cite: 3]."
+        explanation: "En tus apuntes se distingue entre demanda y cantidad demandada: la demanda es la relación completa entre precio y cantidad deseada."
     },
     {
         module: "Módulo 11 - Microeconomía",
@@ -22,7 +22,7 @@ const questionsData = [
             D: "No hay cambios porque son mercados independientes."
         },
         answer: "B",
-        explanation: "Tus resúmenes remarcan que el cambio en el precio de un bien sustitutivo desplaza la curva de demanda del otro bien[cite: 3]."
+        explanation: "Tus resúmenes remarcan que el cambio en el precio de un bien sustitutivo desplaza la curva de demanda del otro bien."
     },
     {
         module: "Módulo 11 - Microeconomía",
@@ -34,7 +34,7 @@ const questionsData = [
             D: "30 euros."
         },
         answer: "A",
-        explanation: "El excedente del consumidor es la diferencia entre la disposición máxima a pagar y el precio realmente pagado[cite: 3]."
+        explanation: "El excedente del consumidor es la diferencia entre la disposición máxima a pagar y el precio realmente pagado."
     },
     {
         module: "Módulo 11 - Microeconomía",
@@ -46,7 +46,7 @@ const questionsData = [
             D: "Que la demanda desaparezca."
         },
         answer: "B",
-        explanation: "Los apuntes insisten en que un precio por debajo del equilibrio genera escasez porque la cantidad demandada supera a la ofrecida[cite: 3]."
+        explanation: "Los apuntes insisten en que un precio por debajo del equilibrio genera escasez porque la cantidad demandada supera a la ofrecida."
     },
     {
         module: "Módulo 11 - Microeconomía",
@@ -58,7 +58,7 @@ const questionsData = [
             D: "Eliminar la competencia entre empresas."
         },
         answer: "B",
-        explanation: "En el resumen de micro se explica que el precio coordina planes y asigna el bien a quienes lo valoran más, mientras atrae a oferentes con menores costes relativos[cite: 3]."
+        explanation: "En el resumen de micro se explica que el precio coordina planes y asigna el bien a quienes lo valoran más, mientras atrae a oferentes con menores costes relativos."
     },
     {
         module: "Módulo 11 - Microeconomía",
@@ -70,7 +70,7 @@ const questionsData = [
             D: "El ahorro mensual del consumidor."
         },
         answer: "C",
-        explanation: "Tus apuntes de micro resumen la condición de óptimo como igualdad entre la relación marginal de sustitución y la relación de precios[cite: 3]."
+        explanation: "Tus apuntes de micro resumen la condición de óptimo como igualdad entre la relación marginal de sustitución y la relación de precios."
     },
     {
         module: "Módulo 11 - Microeconomía",
@@ -82,7 +82,7 @@ const questionsData = [
             D: "La voluntad de los sindicatos."
         },
         answer: "B",
-        explanation: "El bloque de salarios y tipos de interés presenta los precios de los factores como derivados de su productividad marginal esperada[cite: 3]."
+        explanation: "El bloque de salarios y tipos de interés presenta los precios de los factores como derivados de su productividad marginal esperada."
     },
     {
         module: "Módulo 11 - Microeconomía",
@@ -94,7 +94,7 @@ const questionsData = [
             D: "Los salarios solo suben si bajan los precios."
         },
         answer: "C",
-        explanation: "El resumen rechaza la ley de hierro de los salarios y repite que las mejoras salariales sostenibles requieren productividad más alta[cite: 3]."
+        explanation: "El resumen rechaza la ley de hierro de los salarios y repite que las mejoras salariales sostenibles requieren productividad más alta."
     },
     {
         module: "Módulo 11 - Microeconomía",
@@ -106,7 +106,7 @@ const questionsData = [
             D: "Aumentar la cantidad demandada."
         },
         answer: "C",
-        explanation: "Tus apuntes de elasticidad indican que con demanda elástica, subir el precio reduce lo bastante la cantidad como para bajar los ingresos[cite: 3]."
+        explanation: "Tus apuntes de elasticidad indican que con demanda elástica, subir el precio reduce lo bastante la cantidad como para bajar los ingresos."
     },
     {
         module: "Módulo 11 - Microeconomía",
@@ -117,8 +117,8 @@ const questionsData = [
             C: "Bienes de lujo.",
             D: "Bienes independientes."
         },
-        answer: "B",
-        explanation: "En el resumen de micro, la elasticidad cruzada sirve precisamente para distinguir sustitutivos de complementarios[cite: 3]."
+        answer: "C",
+        explanation: "En el resumen de micro, la elasticidad cruzada sirve precisamente para distinguir sustitutivos de complementarios."
     },
     {
         module: "Módulo 11 - Microeconomía",
@@ -130,7 +130,7 @@ const questionsData = [
             D: "Una mayor inversión en el sector."
         },
         answer: "A",
-        explanation: "Los apuntes y el PDF sobre controles de precios asocian el precio techo por debajo del mercado con desabastecimiento, racionamiento y mercado negro[cite: 3]."
+        explanation: "Los apuntes y el PDF sobre controles de precios asocian el precio techo por debajo del mercado con desabastecimiento, racionamiento y mercado negro."
     },
     {
         module: "Módulo 11 - Microeconomía",
@@ -142,7 +142,7 @@ const questionsData = [
             D: "Que la demanda aumente repentinamente."
         },
         answer: "B",
-        explanation: "Tus apuntes destacan que el precio suelo por encima del equilibrio genera excedentes, desempleo o capacidad ociosa y peor asignación[cite: 3]."
+        explanation: "Tus apuntes destacan que el precio suelo por encima del equilibrio genera excedentes, desempleo o capacidad ociosa y peor asignación."
     },
     {
         module: "Módulo 11 - Microeconomía",
@@ -154,7 +154,7 @@ const questionsData = [
             D: "Mantener la producción en el óptimo social."
         },
         answer: "B",
-        explanation: "En el bloque de externalidades se explica que las negativas empujan a sobreproducción o sobreconsumo respecto al óptimo social[cite: 3]."
+        explanation: "En el bloque de externalidades se explica que las negativas empujan a sobreproducción o sobreconsumo respecto al óptimo social."
     },
     {
         module: "Módulo 11 - Microeconomía",
@@ -166,7 +166,7 @@ const questionsData = [
             D: "Nadie tiene derechos de propiedad definidos."
         },
         answer: "A",
-        explanation: "Tus resúmenes de micro recogen exactamente esas dos condiciones: derechos definidos y costes de transacción bajos[cite: 3]."
+        explanation: "Tus resúmenes de micro recogen exactamente esas dos condiciones: derechos definidos y costes de transacción bajos."
     },
     {
         module: "Módulo 11 - Microeconomía",
@@ -178,7 +178,7 @@ const questionsData = [
             D: "El coste marginal sea cero."
         },
         answer: "B",
-        explanation: "El bloque de empresa y beneficios resume la regla de maximización de forma clara: producir hasta que precio iguale al coste marginal[cite: 3]."
+        explanation: "El bloque de empresa y beneficios resume la regla de maximización de forma clara: producir hasta que precio iguale al coste marginal."
     },
     {
         module: "Módulo 11 - Microeconomía",
@@ -190,7 +190,7 @@ const questionsData = [
             D: "La quiebra de todas las empresas."
         },
         answer: "A",
-        explanation: "Tus apuntes indican que la entrada y salida empujan al largo plazo hacia una situación de precio igual al coste medio mínimo[cite: 3]."
+        explanation: "Tus apuntes indican que la entrada y salida empujan al largo plazo hacia una situación de precio igual al coste medio mínimo."
     },
     {
         module: "Módulo 11 - Microeconomía",
@@ -202,7 +202,7 @@ const questionsData = [
             D: "Un modelo donde las empresas nunca cambian su producto."
         },
         answer: "B",
-        explanation: "En la parte de competencia se diferencia entre la foto estática de muchas empresas y la visión dinámica basada en rivalidad y libre entrada[cite: 3]."
+        explanation: "En la parte de competencia se diferencia entre la foto estática de muchas empresas y la visión dinámica basada en rivalidad y libre entrada."
     },
     {
         module: "Módulo 11 - Microeconomía",
@@ -214,7 +214,7 @@ const questionsData = [
             D: "Porque sus costes son siempre decrecientes."
         },
         answer: "C",
-        explanation: "Tanto el resumen como el PDF sobre oligopolios y carteles recalcan las dos fuentes de inestabilidad: entrada externa y engaño interno[cite: 3]."
+        explanation: "Tanto el resumen como el PDF sobre oligopolios y carteles recalcan las dos fuentes de inestabilidad: entrada externa y engaño interno."
     },
     {
         module: "Módulo 11 - Microeconomía",
@@ -226,7 +226,7 @@ const questionsData = [
             D: "Recurso común."
         },
         answer: "D",
-        explanation: "En tu esquema de bienes, los recursos comunes son rivales en consumo y no excluibles, justo la lógica de una pesquería abierta[cite: 3]."
+        explanation: "En tu esquema de bienes, los recursos comunes son rivales en consumo y no excluibles, justo la lógica de una pesquería abierta."
     },
     {
         module: "Módulo 11 - Microeconomía",
@@ -238,7 +238,7 @@ const questionsData = [
             D: "Eliminar la producción nacional del bien."
         },
         answer: "B",
-        explanation: "Tus apuntes de libre comercio resumen el efecto del arancel como precio interno más alto, menor consumo, menos importaciones y pérdida irrecuperable[cite: 3]."
+        explanation: "Tus apuntes de libre comercio resumen el efecto del arancel como precio interno más alto, menor consumo, menos importaciones y pérdida irrecuperable."
     },
 
     // --- MÓDULO 12: MACROECONOMÍA ---
@@ -252,7 +252,7 @@ const questionsData = [
             D: "Exportaciones - Importaciones únicamente."
         },
         answer: "C",
-        explanation: "El resumen de macro recoge la identidad básica del PIB por gasto: consumo, inversión, gasto público y exportaciones netas[cite: 3]."
+        explanation: "El resumen de macro recoge la identidad básica del PIB por gasto: consumo, inversión, gasto público y exportaciones netas."
     },
     {
         module: "Módulo 12 - Macroeconomía",
@@ -264,7 +264,7 @@ const questionsData = [
             D: "Para aumentar artificialmente el valor del PIB."
         },
         answer: "A",
-        explanation: "Tus apuntes recalcan que las importaciones se restan porque ese gasto no corresponde a producción interna[cite: 3]."
+        explanation: "Tus apuntes recalcan que las importaciones se restan porque ese gasto no corresponde a producción interna."
     },
     {
         module: "Módulo 12 - Macroeconomía",
@@ -276,7 +276,7 @@ const questionsData = [
             D: "El aumento del déficit público."
         },
         answer: "B",
-        explanation: "Tanto el resumen como el PDF de PIB explican el valor agregado como herramienta para evitar contar varias veces la misma producción[cite: 3]."
+        explanation: "Tanto el resumen como el PDF de PIB explican el valor agregado como herramienta para evitar contar varias veces la misma producción."
     },
     {
         module: "Módulo 12 - Macroeconomía",
@@ -288,7 +288,7 @@ const questionsData = [
             D: "El valor de la producción a precios corrientes."
         },
         answer: "B",
-        explanation: "Tus apuntes subrayan que el PIB nominal mezcla precio y cantidad, mientras el real intenta quedarse con la variación de cantidades[cite: 3]."
+        explanation: "Tus apuntes subrayan que el PIB nominal mezcla precio y cantidad, mientras el real intenta quedarse con la variación de cantidades."
     },
     {
         module: "Módulo 12 - Macroeconomía",
@@ -300,7 +300,7 @@ const questionsData = [
             D: "Las exportaciones superan automáticamente a las importaciones."
         },
         answer: "B",
-        explanation: "El resumen de macro presenta el deflactor como una medida amplia de precios de la producción interna[cite: 3]."
+        explanation: "El resumen de macro presenta el deflactor como una medida amplia de precios de la producción interna."
     },
     {
         module: "Módulo 12 - Macroeconomía",
@@ -312,7 +312,7 @@ const questionsData = [
             D: "El IPC mide producción y el deflactor mide consumo."
         },
         answer: "C",
-        explanation: "En tus apuntes se repite que el IPC sirve mejor para coste de vida y el deflactor para precios de lo producido dentro del país[cite: 3]."
+        explanation: "En tus apuntes se repite que el IPC sirve mejor para coste de vida y el deflactor para precios de lo producido dentro del país."
     },
     {
         module: "Módulo 12 - Macroeconomía",
@@ -324,7 +324,7 @@ const questionsData = [
             D: "Riqueza acumulada."
         },
         answer: "B",
-        explanation: "El PDF sobre definición de PIB lo trata expresamente como variable flujo, no como stock[cite: 3]."
+        explanation: "El PDF sobre definición de PIB lo trata expresamente como variable flujo, no como stock."
     },
     {
         module: "Módulo 12 - Macroeconomía",
@@ -336,7 +336,7 @@ const questionsData = [
             D: "La tecnología mejora automáticamente."
         },
         answer: "B",
-        explanation: "El bloque de función de producción usa este principio para explicar por qué la acumulación de un solo factor tiene límites[cite: 3]."
+        explanation: "El bloque de función de producción usa este principio para explicar por qué la acumulación de un solo factor tiene límites."
     },
     {
         module: "Módulo 12 - Macroeconomía",
@@ -348,7 +348,7 @@ const questionsData = [
             D: "Exportaciones e importaciones."
         },
         answer: "B",
-        explanation: "El resumen de macro descompone el interés en tiempo, riesgo y liquidez, que es una de las ideas centrales del tema[cite: 3]."
+        explanation: "El resumen de macro descompone el interés en tiempo, riesgo y liquidez, que es una de las ideas centrales del tema."
     },
     {
         module: "Módulo 12 - Macroeconomía",
@@ -360,7 +360,7 @@ const questionsData = [
             D: "Cambiar su estructura de costes primero."
         },
         answer: "B",
-        explanation: "Tus apuntes son directos: si el VPN es positivo y la TIR supera el coste de oportunidad, el proyecto crea valor[cite: 3]."
+        explanation: "Tus apuntes son directos: si el VPN es positivo y la TIR supera el coste de oportunidad, el proyecto crea valor."
     },
     {
         module: "Módulo 12 - Macroeconomía",
@@ -372,7 +372,7 @@ const questionsData = [
             D: "Sustituir a la producción física."
         },
         answer: "B",
-        explanation: "En el bloque sobre dinero, los apuntes explican funciones clásicas como medio de intercambio, unidad de cuenta y depósito de valor[cite: 3]."
+        explanation: "En el bloque sobre dinero, los apuntes explican funciones clásicas como medio de intercambio, unidad de cuenta y depósito de valor."
     },
     {
         module: "Módulo 12 - Macroeconomía",
@@ -384,7 +384,7 @@ const questionsData = [
             D: "Que los precios nunca deberían subir."
         },
         answer: "B",
-        explanation: "El resumen de macro insiste en que no basta mirar la oferta monetaria: también importa la demanda de dinero y su calidad[cite: 3]."
+        explanation: "El resumen de macro insiste en que no basta mirar la oferta monetaria: también importa la demanda de dinero y su calidad."
     },
     {
         module: "Módulo 12 - Macroeconomía",
@@ -396,7 +396,7 @@ const questionsData = [
             D: "Prohíbe a los bancos comerciales prestar dinero."
         },
         answer: "B",
-        explanation: "Tus apuntes explican que la compra de activos inyecta reservas, sube el precio del activo y reduce su rendimiento[cite: 3]."
+        explanation: "Tus apuntes explican que la compra de activos inyecta reservas, sube el precio del activo y reduce su rendimiento."
     },
     {
         module: "Módulo 12 - Macroeconomía",
@@ -408,7 +408,7 @@ const questionsData = [
             D: "Solo el límite de impresión de billetes físicos."
         },
         answer: "B",
-        explanation: "El bloque de dinero bancario insiste en esos límites: liquidez, solvencia, crédito solvente y conversión final en dinero del banco central[cite: 3]."
+        explanation: "El bloque de dinero bancario insiste en esos límites: liquidez, solvencia, crédito solvente y conversión final en dinero del banco central."
     },
     {
         module: "Módulo 12 - Macroeconomía",
@@ -420,7 +420,7 @@ const questionsData = [
             D: "Eliminar el seguro de desempleo."
         },
         answer: "C",
-        explanation: "Tus apuntes de política fiscal resumen el enfoque convencional así: menos impuestos o más gasto equivalen a un sesgo expansivo[cite: 3]."
+        explanation: "Tus apuntes de política fiscal resumen el enfoque convencional así: menos impuestos o más gasto equivalen a un sesgo expansivo."
     },
     {
         module: "Módulo 12 - Macroeconomía",
@@ -432,7 +432,7 @@ const questionsData = [
             D: "La privatización de una empresa pública."
         },
         answer: "B",
-        explanation: "El resumen de macro cita de forma expresa el seguro de desempleo y la caída automática de recaudación en recesión[cite: 3]."
+        explanation: "El resumen de macro cita de forma expresa el seguro de desempleo y la caída automática de recaudación en recesión."
     },
     {
         module: "Módulo 12 - Macroeconomía",
@@ -444,7 +444,7 @@ const questionsData = [
             D: "Que no afecta al déficit público."
         },
         answer: "B",
-        explanation: "Tus apuntes recogen varias críticas, y una de las más claras es el crowding out: deuda pública que desplaza crédito privado[cite: 3]."
+        explanation: "Tus apuntes recogen varias críticas, y una de las más claras es el crowding out: deuda pública que desplaza crédito privado."
     },
     {
         module: "Módulo 12 - Macroeconomía",
@@ -456,7 +456,7 @@ const questionsData = [
             D: "La tecnología retrocede."
         },
         answer: "B",
-        explanation: "El resumen de Solow distingue entre ampliación y profundización del capital: si la inversión supera depreciación y dilución, k por trabajador aumenta[cite: 3]."
+        explanation: "El resumen de Solow distingue entre ampliación y profundización del capital: si la inversión supera depreciación y dilución, k por trabajador aumenta."
     },
     {
         module: "Módulo 12 - Macroeconomía",
@@ -468,7 +468,7 @@ const questionsData = [
             D: "Reduce el ahorro a cero."
         },
         answer: "A",
-        explanation: "Tus apuntes aclaran que la regla de oro no busca acumular sin límite, sino el capital que maximiza el consumo sostenible[cite: 3]."
+        explanation: "Tus apuntes aclaran que la regla de oro no busca acumular sin límite, sino el capital que maximiza el consumo sostenible."
     },
     {
         module: "Módulo 12 - Macroeconomía",
@@ -480,6 +480,6 @@ const questionsData = [
             D: "La productividad subirá automáticamente por decreto."
         },
         answer: "B",
-        explanation: "El resumen de macro relaciona salario máximo sostenible y productividad económica; si el salario exigido supera esa productividad, cae la demanda de trabajo[cite: 3]."
+        explanation: "El resumen de macro relaciona salario máximo sostenible y productividad económica; si el salario exigido supera esa productividad, cae la demanda de trabajo."
     }
 ];
